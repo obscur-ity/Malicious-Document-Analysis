@@ -6,7 +6,7 @@ The tools used in this guide come from the oleTools [github](https://github.com/
 
 ### Hyperlinks
 
-Extracting hyperlinks from office documents is very straight forward. To do so all you have to do is run the command oleobj to extract suspected phishing urls from a document.
+Extracting hyperlinks from office documents is very straight forward. To do so all you have to do is run the command `oleobj <filename>` to extract suspected phishing urls from a document.
 
 ![Extracting Urls](./img/oleobj-url.png)
 
