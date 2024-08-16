@@ -43,7 +43,17 @@ Whats happening is when this document is opened it loads a template from that se
 
 It would be up to the analyst if they want to pursue the script hosted on the web server or just collect the IOC of the URL and move on.
 
-### Last Resort Approach
+### Documents With Embedded Files
+
+Potential phishing documents could have embedded files within them hoping a user will click on them. These object can be anything but are mostly used to drop new files or load scripts. In this example there is an embedded html page.
+
+To extract embedded objects within office documents you can use the command `oleobj <filename>`
+
+![extracted html](./img/embeded-1.png)
+
+The extracted HTML can be viewed as text now, this example has a plain page but scripts could be embedded in the html by an attacker to decode files and save them to the local system.
+
+![extracted page](./img/embeded-2.png)
 
 !!! TODO
 Markdown will be added to after use case documents have been created / collected
