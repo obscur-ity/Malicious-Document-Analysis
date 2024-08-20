@@ -55,5 +55,16 @@ The extracted HTML can be viewed as text now, this example has a plain page but 
 
 ![extracted page](./img/embeded-2.png)
 
-!!! TODO
-Markdown will be added to after use case documents have been created / collected
+### OLE Fails to Extract
+
+Take the following return from oletools into consideration.
+
+![Nothing to see](./img/zip-1.png)
+
+In the case that OLE tools fail to find anything or see the document as a OLE type file. you can open the document as a zip archive to look for artifacts that may be interesting. Artifacts of interest will end in a .bin extension.
+
+![Opening the file as a zip](./img/zip-2.png)
+
+If you extract just the bin file and open it in CyberChef removing null bytes you can get an idea of what the object was trying to do.
+
+![reading the script content](./img/zip-3.png)
