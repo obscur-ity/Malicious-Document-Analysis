@@ -8,6 +8,8 @@ Most files handled containing sensitive data would be:
 - PDF
 - Office Docs
 
+The samples from the guide are available [here](https://github.com/obscur-ity/Document-Samples)
+
 ## Zip
 
 Nothing much to say here but take into consideration that images / txt files inside could contain sensitive info. Although they should be separated before the analysis stage sometimes malware uses things like images / audio / text files and more to contain encrypted malware.
@@ -17,8 +19,6 @@ Nothing much to say here but take into consideration that images / txt files ins
 PDFs can contain simply just a phishing link inside to something as complex as range of scripts that will be ran when opened.
 
 [This guide](./PDF/PDF.md) will run you through some simple ways to extract malicious IOCs from PDF documents.
-
-The samples from the guide are available [here](https://github.com/obscur-ity/Document-Samples)
 
 ## Office Docs
 
