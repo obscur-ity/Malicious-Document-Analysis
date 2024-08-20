@@ -18,7 +18,7 @@ PDFs can contain simply just a phishing link inside to something as complex as r
 
 [This guide](./PDF/PDF.md) will run you through some simple ways to extract malicious IOCs from PDF documents.
 
-The samples from the guide are available [here](./PDF/samples/)
+The samples from the guide are available [here](https://github.com/obscur-ity/Document-Samples)
 
 ## Office Docs
 
